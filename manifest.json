@@ -1,0 +1,20 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "./jquery.js", "./background.js"]
+   },
+   "browser_action": {
+      "default_popup": "popup.html"
+   },
+   "description": "Nguyen Hoang Thang",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "manifest_version": 2,
+   "name": "Đếm ngày yêu",
+   "permissions": [ "storage" ],
+   "short_name": "Đếm ngày yêu",
+   "version": "1.0"
+}
